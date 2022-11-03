@@ -10,11 +10,11 @@ const RootLayout: FC<RootLayoutProps> = ({ children }) => {
   return (
     <html lang="ja">
       <head>
-        <title>Next13 dashboard</title>
-        <meta name="description" content="Next13 dashboard project" />
+        <title>N13BLOG</title>
+        <meta name="description" content="Next13 Blog Project" />
         <link rel="icon" href="/favicon.ico" />
       </head>
-      <body>{children}</body>
+      <body className="flex min-h-screen flex-col">{children}</body>
     </html>
   );
 };
